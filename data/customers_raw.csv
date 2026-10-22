@@ -1,0 +1,6 @@
+customer_id,name,email,updated_at
+1,Asha,asha@example.com,2026-10-22
+2,Ravi,ravi@example.com,2026-10-22
+3,Meena,,2026-10-22
+4,,deepak@example.com,2026-10-21
+2,Ravi Kumar,ravi.k@example.com,2026-10-23
