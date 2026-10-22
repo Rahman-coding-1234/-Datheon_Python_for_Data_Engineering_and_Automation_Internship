@@ -69,7 +69,7 @@ def _try_email(subject: str, body: str) -> None:
 
 if __name__ == "__main__":
     # Testing ke liye: har 1 minute. Baad mein daily schedule use karein.
-    schedule.every(1).minutes.do(run_pipeline)
+           schedule.every().day.at("09:00").do(run_pipeline)
     log.info("Scheduler started")
     while True:
         schedule.run_pending()
